@@ -1,5 +1,4 @@
 import random
-# import numpy as np
 
 # Number of Individual in each generation
 POPULATION_SIZE = 100
@@ -75,9 +74,6 @@ def main():
         gnome = Individual.create_gnome()
         # print(gnome)
         population.append(Individual(gnome))
-
-    # p = np.array(population)
-    # print(p)
 
     while not found:
 
